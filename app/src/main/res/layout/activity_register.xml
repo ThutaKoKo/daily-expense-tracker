@@ -6,4 +6,127 @@
     android:layout_height="match_parent"
     tools:context=".RegisterActivity">
 
+    <TextView
+        android:id="@+id/tv_register_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/register"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/round_bg"
+        android:hint="@string/name"
+        android:inputType="textPersonName"
+        android:imeOptions="actionNext"
+        android:maxLines="1"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:textSize="16sp"
+        tools:ignore="Autofill"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_register_title" />
+
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/round_bg"
+        android:hint="@string/email"
+        android:imeOptions="actionNext"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_name"
+        tools:ignore="Autofill" />
+
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/round_bg"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:imeOptions="actionNext"
+        android:maxLines="1"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_email"
+        tools:ignore="Autofill" />
+
+    <EditText
+        android:id="@+id/et_confirm_password"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/round_bg"
+        android:hint="@string/confirm_password"
+        android:inputType="textPassword"
+        android:imeOptions="actionDone"
+        android:maxLines="1"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_password"
+        tools:ignore="Autofill" />
+
+    <include
+        android:id="@id/btn_register"
+        layout="@layout/btn_loading_layout"
+        android:layout_width="0dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_confirm_password" />
+
+    <TextView
+        android:id="@+id/tv_login"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/already_have_an_account_login"
+        android:textColor="@color/purple_500"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_register" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
