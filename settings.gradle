@@ -1,0 +1,2 @@
+rootProject.name = "Daily Expense Tracker"
+include ':app'

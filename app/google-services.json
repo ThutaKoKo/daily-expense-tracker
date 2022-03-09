@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "231660784014",
+    "project_id": "daily-expense-tracker-9b17a",
+    "storage_bucket": "daily-expense-tracker-9b17a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:231660784014:android:193eb3aa01e967ae7cfcdf",
+        "android_client_info": {
+          "package_name": "com.mmsoft.dailyexpensetracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "231660784014-c4qdliuebhbiipqbnv0l880h7m87183n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANBBKU1RQrRfPIZ2ASqQk0QBXN_Gh7U1w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "231660784014-c4qdliuebhbiipqbnv0l880h7m87183n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
